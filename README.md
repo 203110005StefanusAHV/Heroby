@@ -1,12 +1,13 @@
-
-
-Architecture
+Penjelasan Singkat
 --------------
-**Model–View–ViewModel (MVVM)** is a software design pattern that is structured to separate program logic and user interface controls. MVVM is also known as model-view-binder and was created by Microsoft architects Ken Cooper and John Gossman. Like many other design patterns, MVVM helps organize code and break programs into modules to make development, updating and reuse of code simpler and faster. The pattern is often used in Windows and web graphics presentation software.
+**HerobyStefanus** adalah aplikasi yang digunakan untuk mencari nama-nama superhero, yang berisi sedikit mengenai data mereka(superhero itu sendiri)
+
+Arsitektur
+--------------
+**Model–View–ViewModel (MVVM)** adalah pola desain perangkat lunak yang disusun untuk memisahkan logika program dan kontrol antarmuka pengguna. MVVM juga dikenal sebagai model-view-binder dan dibuat oleh arsitek Microsoft Ken Cooper dan John Gossman. Seperti banyak pola desain lainnya, MVVM membantu mengatur kode dan memecah program menjadi modul untuk membuat pengembangan, pembaruan, dan penggunaan kembali kode menjadi lebih sederhana dan lebih cepat. Pola ini sering digunakan di Windows dan perangkat lunak presentasi grafik web.
 
 ![MVVM](https://upload.wikimedia.org/wikipedia/commons/8/87/MVVMPattern.png "Model–View–ViewModel")
 
-**Repository module** handle data operations. They provide more generic API so that the rest of the app can access data layer easily.
+**Repository module** menangani operasi data. Mereka menyediakan API yang lebih umum sehingga aplikasi lainnya dapat mengakses lapisan data dengan mudah.
 
 ![Repository patternb](https://raw.githubusercontent.com/harunagic/heroes/master/screenshots/diagram.png "Repository pattern")
-
